@@ -1,0 +1,72 @@
+body{
+  margin:0px;
+  font-family:fantasy;
+  font-size: 22px;
+  color:#4175A3;
+  opacity:0.9;
+  background-color: #A1C8D8;
+}
+
+header{
+  display:flex;
+  height: 69px;
+  width: 100%;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items:center;
+  font-family: fantasy;
+  font-size: 14px;
+  font-weight:normal;
+  position:fixed;
+  background-color:rgb(48,72,114);
+  border-bottom: 1px solid #69A4C3;
+  z-index: 5;
+  margin top: 0px;
+}
+
+.logo{
+  display:flex;
+  height: 50px;
+  padding-left: 10px;
+  color: #69A4C3;
+  font-weight:normal;
+
+}
+
+a {
+  font-family: fantasy;
+  font-size: 22px;
+  color: #69A4C3;
+  padding: 10px;
+}
+
+
+.complete{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#allmission{
+  margin-top: 69px;
+  height:1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-mision.jpg");
+  background-position: center;
+
+}
+
+.mission{
+  display:block;
+  width: inherit;
+  font-family: fantasy;
+  font-size: 22px;
+  color: rgb(48,72,114);
+  font-weight:normal;
+  text-align: center;
+}
