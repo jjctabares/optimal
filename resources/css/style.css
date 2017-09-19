@@ -1,6 +1,6 @@
 body{
   margin:0px;
-  font-family:helvetica;
+  font-family:Helvetica;
   font-size: 22px;
   color:#4175A3;
   opacity:0.9;
@@ -35,11 +35,12 @@ header{
 }
 .logo1{
   color: #69A4C3;
-  font-weight:bold;
-  font-family: Helvetica;
+  font-weight:lighter;
+  font-family: fantasy;
 }
 a {
-  font-family: Helvetica;
+  font-family: fantasy;
+  font-weight: lighter;
   font-size: 22px;
   color: #69A4C3;
   padding: 10px;
@@ -86,17 +87,20 @@ a {
 h2{
   text-align: center;
   color: rgb(48,72,114);
+  font-family: fantasy;
 }
 
 .services{
   text-align: center;
   color: rgb(48,72,114);
   margin-top: 5px;
+  font-family: fantasy;
+  font-weight: lighter;
 }
 .serviceclass{
   height: 200px;
   width: 300px;
-  margin:0px 10px;
+
 }
 
 .topservices{
